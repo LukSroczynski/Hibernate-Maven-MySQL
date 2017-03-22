@@ -3,6 +3,7 @@
 <b> Objectives: </b>
 - Learn maven
 - Learn basics of Hibernate
+- Learn basics of Spring
 - Try out MySQL
 
 <b>USEFUL STUFF</b> - persistence.xml file
