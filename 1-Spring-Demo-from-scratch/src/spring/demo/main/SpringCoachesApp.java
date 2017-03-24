@@ -1,7 +1,8 @@
 package spring.demo.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import spring.demo.coaches.Coach;
+import spring.demo.coaches.coach.CricketCoach;
+import spring.demo.coaches.interfaces.Coach;
 
 /**
  * Created by Łukasz Sroczyński on 23.03.2017.
@@ -13,16 +14,16 @@ public class SpringCoachesApp {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // 2. Retrieve bean from Spring-Container
-        Coach theCoach = context.getBean("myCoach", Coach.class); // Coach.class gives us: interface spring.demo.coaches.Coach
+        CricketCoach theCoach = context.getBean("myCoach", CricketCoach.class); // coach.class gives us: interface spring.demo.coaches.interfaces.coach
 
         // 3. Call Methods on the bean
         System.out.println(theCoach.getDailyWorkout());
-
-        // Call new method made in FortunesService
         System.out.println(theCoach.getDailyFortune());
+
+        System.out.println(theCoach.getEmailAddress());
+        System.out.println(theCoach.getTeam());
 
         // 4. Close the context
         context.close();
-
     }
 }

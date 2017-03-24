@@ -1,9 +1,12 @@
-package spring.demo.coaches;
+package spring.demo.coaches.coach;
+
+import spring.demo.coaches.interfaces.Coach;
+import spring.demo.coaches.interfaces.FortuneService;
 
 /**
  * Created by Łukasz Sroczyński on 23.03.2017.
  */
-public class BaseballCoach implements Coach{
+public class BaseballCoach implements Coach {
 
     // Definied a private field for Dependency
     private FortuneService fortuneService;

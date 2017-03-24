@@ -7,13 +7,17 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:property-placeholder location="spring/demo/data/sport.properties"/>
+
     <!-- Define your beans here -->
     <bean id="myHappyFortuneService"
-          class="spring.demo.coaches.HappyFortuneService">
+          class="spring.demo.coaches.featues.HappyFortuneService">
     </bean>
 
-    <bean id="myCoach" class="spring.demo.coaches.CricketCoach">
+    <bean id="myCoach" class="spring.demo.coaches.coach.CricketCoach">
         <property name="fortuneService1" ref="myHappyFortuneService" />
+        <property name="emailAddress" value="${foo.email}" />
+        <property name="team" value="${foo.team}" />
     </bean>
     
 </beans>

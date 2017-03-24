@@ -1,4 +1,7 @@
-package spring.demo.coaches;
+package spring.demo.coaches.coach;
+
+import spring.demo.coaches.interfaces.Coach;
+import spring.demo.coaches.interfaces.FortuneService;
 
 /**
  * Created by Łukasz Sroczyński on 23.03.2017.

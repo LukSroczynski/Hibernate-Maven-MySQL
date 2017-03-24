@@ -1,4 +1,4 @@
-package spring.demo.coaches;
+package spring.demo.coaches.interfaces;
 
 /**
  * Created by Łukasz Sroczyński on 24.03.2017.
