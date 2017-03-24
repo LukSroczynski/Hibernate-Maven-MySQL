@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f810ad0a-2dc1-4403-ae02-6d282cd971e9" name="Default" comment="Practice Activity - Dependency Injection - random quote">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/data/sport.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/BaseballCoach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/Coach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/CricketCoach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/FortuneService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/HappyFortuneService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/coaches/TrackCoach.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/SetterDemoApp.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/BaseballCoach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/coach/BaseballCoach.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/Coach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/interfaces/Coach.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/CricketCoach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/coach/CricketCoach.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/FortuneService.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/interfaces/FortuneService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/HappyFortuneService.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/TrackCoach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/CoachesApp.class" afterPath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/CoachesApp.class" />
+    <list default="true" id="f810ad0a-2dc1-4403-ae02-6d282cd971e9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/applicationContext.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/SpringCoachesApp.class" afterPath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/SpringCoachesApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/applicationContext.xml" afterPath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/main/CoachesApp.java" afterPath="$PROJECT_DIR$/src/spring/demo/main/CoachesApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Spring-Demo-from-scratch.iml" afterPath="$PROJECT_DIR$/1-Spring-Demo-from-scratch.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" afterPath="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" />
     </list>
     <ignored path="1-Spring-Demo-from-scratch.iws" />
@@ -47,28 +38,76 @@
       <file leaf-file-name="SpringCoachesApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sport.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/demo/data/sport.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HappyFortuneService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HappyFortuneService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="34">
+              <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="87" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="87" />
+              <folding>
+                <element signature="e#910#924#0" expanded="true" />
+                <element signature="e#964#977#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beanScope-applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackCoach.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="51" />
+              <folding>
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanLifeCycle-init-destroy-applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanLifeCycle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,34 +115,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FortuneService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/interfaces/FortuneService.java">
+      <file leaf-file-name="BeanScopeApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="357">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
-                <element signature="e#900#914#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseballCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/BaseballCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,7 +130,7 @@
       <file leaf-file-name="CoachesApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/demo/main/CoachesApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+            <state relative-caret-position="425">
               <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,33 +154,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Coach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/interfaces/Coach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrackCoach.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -204,9 +203,15 @@
         <option value="$PROJECT_DIR$/src/spring/demo/coaches/interfaces/Additional_Information.java" />
         <option value="$PROJECT_DIR$/src/spring/demo/coaches/coach/CricketCoach.java" />
         <option value="$PROJECT_DIR$/src/spring/demo/data/sport.properties" />
-        <option value="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" />
+        <option value="$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java" />
+        <option value="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" />
+        <option value="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java" />
       </list>
     </option>
   </component>
@@ -265,20 +270,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -307,6 +298,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,6 +401,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -405,13 +436,18 @@
     <property name="project.structure.side.proportion" value="0.21609196" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\GIT\Spring-Hibernate-Maven\1-Spring-Demo-from-scratch\src\spring\demo\config" />
+      <recent name="C:\Users\user\Desktop\GIT\Spring-Hibernate-Maven\1-Spring-Demo-from-scratch\src\spring\demo\coaches" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\GIT\Spring-Hibernate-Maven\1-Spring-Demo-from-scratch\src\spring\demo\config" />
+      <recent name="C:\Users\user\Desktop\GIT\Spring-Hibernate-Maven\1-Spring-Demo-from-scratch\src" />
+      <recent name="C:\Users\user\Desktop\GIT\Hibernate-Maven-MySQL\1-Spring-Demo-from-scratch\lib" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="spring.demo.coaches" />
       <recent name="spring.demo.main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\GIT\Spring-Hibernate-Maven\1-Spring-Demo-from-scratch\src" />
-      <recent name="C:\Users\user\Desktop\GIT\Hibernate-Maven-MySQL\1-Spring-Demo-from-scratch\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringCoachesApp">
+  <component name="RunManager" selected="Application.BeanLifeCycle">
     <configuration default="false" name="CoachesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -475,6 +511,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="spring.demo.main.SetterDemoApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="1-Spring-Demo-from-scratch" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BeanScopeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="spring.demo.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="spring.demo.main.BeanScopeApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="1-Spring-Demo-from-scratch" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="spring.demo.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="spring.demo.main.BeanLifeCycle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -891,16 +967,20 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.CoachesApp" />
       <item index="1" class="java.lang.String" itemvalue="Application.SpringCoachesApp" />
       <item index="2" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BeanScopeApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BeanLifeCycle" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.SpringCoachesApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CoachesApp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BeanLifeCycle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BeanScopeApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SpringCoachesApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SetterDemoApp" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CoachesApp" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -940,7 +1020,7 @@
       <updated>1490260614095</updated>
       <workItem from="1490260615702" duration="1121000" />
       <workItem from="1490262317394" duration="11609000" />
-      <workItem from="1490348207653" duration="6143000" />
+      <workItem from="1490348207653" duration="12221000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1490347867346</created>
@@ -963,14 +1043,22 @@
       <option name="project" value="LOCAL" />
       <updated>1490348134380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Practice Activity - Dependency Injection - random quote">
+      <created>1490354614848</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1490354614848</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26726000" />
+    <option name="totallyTimeSpent" value="32804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -985,15 +1073,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1048,9 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1175,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,12 +1192,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding>
-            <element signature="e#900#914#0" expanded="true" />
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1127,12 +1219,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="e#900#914#0" expanded="true" />
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1145,12 +1238,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#900#914#0" expanded="true" />
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1163,12 +1257,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#900#914#0" expanded="true" />
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1185,7 +1280,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,12 +1315,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <element signature="e#900#914#0" expanded="true" />
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1243,29 +1344,11 @@
     <entry file="file://$PROJECT_DIR$/src/spring/demo/main/TrackCoach.java" />
     <entry file="file://$PROJECT_DIR$/../../../ZeusEco/src/main/resources/Servlet.java" />
     <entry file="file://$PROJECT_DIR$/src/spring/demo/main/SetterDemoApp.java" />
-    <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/interfaces/Coach.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/CoachesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1285,41 +1368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/CricketCoach.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#1167#1168#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/demo/data/sport.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="e#900#914#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1334,8 +1386,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/module=1-Spring-Demo-from-scratch">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>module=1-Spring-Demo-from-scratch</OriginalElement>
+          <nodes>
+            <node x="" y="">module=1-Spring-Demo-from-scratch</node>
+            <node x="" y="">fileset=1-Spring-Demo-from-scratch/Spring Application Context</node>
+            <node x="" y="">filePath=C:/Users/user/Desktop/GIT/Spring-Hibernate-Maven/1-Spring-Demo-from-scratch/src/beanScope-applicationContext.xml</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="357.5" y="10.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="87" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="87" />
+          <folding>
+            <element signature="e#910#924#0" expanded="true" />
+            <element signature="e#964#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/CricketCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="41" column="51" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="51" />
+          <folding>
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/CoachesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

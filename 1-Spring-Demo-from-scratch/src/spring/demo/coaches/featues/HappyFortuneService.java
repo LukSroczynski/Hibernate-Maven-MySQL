@@ -1,7 +1,6 @@
 package spring.demo.coaches.featues;
 
 import spring.demo.coaches.interfaces.FortuneService;
-
 import java.util.Random;
 
 /**
