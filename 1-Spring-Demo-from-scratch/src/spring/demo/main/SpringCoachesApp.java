@@ -18,6 +18,9 @@ public class SpringCoachesApp {
         // 3. Call Methods on the bean
         System.out.println(theCoach.getDailyWorkout());
 
+        // Call new method made in FortunesService
+        System.out.println(theCoach.getDailyFortune());
+
         // 4. Close the context
         context.close();
 
