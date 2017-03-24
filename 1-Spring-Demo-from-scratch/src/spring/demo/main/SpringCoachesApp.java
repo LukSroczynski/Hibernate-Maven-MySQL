@@ -13,7 +13,7 @@ public class SpringCoachesApp {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // 2. Retrieve bean from Spring-Container
-        Coach theCoach = context.getBean("myCoach", Coach.class); // .class gives us: interface spring.demo.coaches.Coach
+        Coach theCoach = context.getBean("myCoach", Coach.class); // Coach.class gives us: interface spring.demo.coaches.Coach
 
         // 3. Call Methods on the bean
         System.out.println(theCoach.getDailyWorkout());
