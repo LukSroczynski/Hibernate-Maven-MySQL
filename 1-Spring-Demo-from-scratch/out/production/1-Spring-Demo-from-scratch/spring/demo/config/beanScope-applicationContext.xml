@@ -15,9 +15,7 @@
 
     <bean id="myCoach"
           class="spring.demo.coaches.coach.TrackCoach"
-          scope="prototype"
-          init-method="doAtStartup"
-          destroy-method="doAtDestroy">
+          scope="prototype">
         <constructor-arg ref="myHappyFortuneService" />
     </bean>
 

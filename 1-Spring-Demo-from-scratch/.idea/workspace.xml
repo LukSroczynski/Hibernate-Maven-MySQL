@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f810ad0a-2dc1-4403-ae02-6d282cd971e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/applicationContext.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/spring/demo/config/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/SpringCoachesApp.class" afterPath="$PROJECT_DIR$/out/production/1-Spring-Demo-from-scratch/spring/demo/main/SpringCoachesApp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-Spring-Demo-from-scratch.iml" afterPath="$PROJECT_DIR$/1-Spring-Demo-from-scratch.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" afterPath="$PROJECT_DIR$/src/spring/demo/coaches/featues/HappyFortuneService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" afterPath="$PROJECT_DIR$/src/spring/demo/main/SpringCoachesApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" afterPath="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
     </list>
     <ignored path="1-Spring-Demo-from-scratch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,8 +86,8 @@
       <file leaf-file-name="BeanLifeCycle-init-destroy-applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+            <state relative-caret-position="171">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,8 +96,8 @@
       <file leaf-file-name="BeanLifeCycle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="351">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/spring/demo/config/beanScope-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/spring/demo/main/BeanScopeApp.java" />
         <option value="$PROJECT_DIR$/src/spring/demo/coaches/coach/TrackCoach.java" />
-        <option value="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java" />
+        <option value="$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -398,24 +388,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="coach" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1-Spring-Demo-from-scratch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1020,7 +992,7 @@
       <updated>1490260614095</updated>
       <workItem from="1490260615702" duration="1121000" />
       <workItem from="1490262317394" duration="11609000" />
-      <workItem from="1490348207653" duration="12221000" />
+      <workItem from="1490348207653" duration="15752000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1490347867346</created>
@@ -1050,14 +1022,21 @@
       <option name="project" value="LOCAL" />
       <updated>1490354614848</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="BeanLifeCycle">
+      <created>1490361639971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1490361639972</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32804000" />
+    <option name="totallyTimeSpent" value="36335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1078,7 +1057,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32860824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1113,7 +1092,8 @@
     <MESSAGE value="spring cd" />
     <MESSAGE value="spring" />
     <MESSAGE value="Practice Activity - Dependency Injection - random quote" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice Activity - Dependency Injection - random quote" />
+    <MESSAGE value="BeanLifeCycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeanLifeCycle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1487,16 +1467,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/demo/config/BeanLifeCycle-init-destroy-applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        <state relative-caret-position="171">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring/demo/main/BeanLifeCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="351">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
