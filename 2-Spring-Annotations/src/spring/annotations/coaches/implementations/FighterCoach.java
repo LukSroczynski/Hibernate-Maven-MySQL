@@ -1,18 +1,15 @@
 package spring.annotations.coaches.implementations;
 
-import org.springframework.stereotype.Component;
 import spring.annotations.coaches.interfaces.Coach;
 
 /**
- * Created by Łukasz Sroczyński on 24.03.2017.
+ * Created by Surreallistic on 25.03.2017.
  */
-
-@Component
-public class TennisCoach implements Coach {
+public class FighterCoach implements Coach{
 
     @Override
     public String getDailyWorkout() {
-        return "Practice your back-hand volly.";
+        return null;
     }
 
     @Override
@@ -24,5 +21,4 @@ public class TennisCoach implements Coach {
     public String getRandomFortune() {
         return null;
     }
-
 }
