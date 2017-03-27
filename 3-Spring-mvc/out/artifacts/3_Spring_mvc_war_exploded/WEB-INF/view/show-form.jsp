@@ -12,7 +12,13 @@
   </head>
   <body>
 
-  <h2> Go there: <a href="showForm">Form</a> </h2>
+  <form action="processForm2" method="GET">
+
+    <input type="text" name="studentName" placeholder="What's your name?" />
+
+    <input type="submit" />
+
+  </form>
 
   </body>
 </html>

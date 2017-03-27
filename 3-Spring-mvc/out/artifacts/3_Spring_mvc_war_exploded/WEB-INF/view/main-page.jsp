@@ -8,9 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Main Page</title>
   </head>
   <body>
-  Hello
+
+  <h2> Go there: <a href="showForm">Form</a> </h2>
+
   </body>
 </html>
