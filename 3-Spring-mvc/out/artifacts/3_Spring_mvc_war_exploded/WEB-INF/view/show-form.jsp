@@ -12,7 +12,17 @@
   </head>
   <body>
 
+  <h2>Form without annotation</h2>
   <form action="processForm2" method="GET">
+
+    <input type="text" name="studentName" placeholder="What's your name?" />
+
+    <input type="submit" />
+
+  </form>
+
+  <h2>Form with annotation: @RequestParam("studentName")</h2>
+  <form action="processForm3" method="GET">
 
     <input type="text" name="studentName" placeholder="What's your name?" />
 

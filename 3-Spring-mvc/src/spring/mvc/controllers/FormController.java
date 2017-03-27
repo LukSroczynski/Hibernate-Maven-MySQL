@@ -3,6 +3,7 @@ package spring.mvc.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -27,7 +28,7 @@ public class FormController {
 
     // 3. Controller method that read from-data and add that data to the model
     @RequestMapping("/processForm2")
-    public String readForm(HttpServletRequest request, Model model) {
+    public String readForm1(HttpServletRequest request, Model model) {
 
         // 1. Read request parameter from the HTML form
         String name = request.getParameter("studentName");
@@ -44,4 +45,20 @@ public class FormController {
         return "show-process-form";
     }
 
+    // same as above but with a little less code and using annotations
+    @RequestMapping("/processForm3")
+    public String readForm2(
+            @RequestParam("studentName") String name,
+            Model model) {
+
+        name = name.toUpperCase();
+
+        // 3. Create the message
+        String result = "Using annotations: Yo! " + name;
+
+        // 4. Add message to the model
+        model.addAttribute("message", result);
+
+        return "show-process-form";
+    }
 }
