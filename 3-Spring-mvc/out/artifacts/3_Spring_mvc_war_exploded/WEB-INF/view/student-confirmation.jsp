@@ -8,13 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Main Page</title>
+    <title>Student configrmation</title>
   </head>
   <body>
 
-  <h2> Go there: <a href="showForm">Hello Form</a> </h2>
-
-  <h2> Go there: <a href="student/processForm">Student Form</a> </h2>
+  Student is: ${student.firstName} ${student.lastName}
 
   </body>
 </html>

@@ -1,7 +1,7 @@
 package spring.mvc.core;
 
 /**
- * Created by Łukasz Sroczyński on 27.03.2017.
+ * Created by Łukasz S. on 27.03.2017.
  */
 public class Student {
 

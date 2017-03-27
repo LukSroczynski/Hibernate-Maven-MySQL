@@ -12,7 +12,9 @@
   </head>
   <body>
 
-  <h2> Go there: <a href="showForm">Form</a> </h2>
+  <h2> Go there: <a href="showForm">Hello Form</a> </h2>
+
+  <h2> Go there: <a href="student/processForm">Student Form</a> </h2>
 
   </body>
 </html>
