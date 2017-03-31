@@ -2,12 +2,15 @@ package springbootstarter.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.context.annotation.ComponentScan;
 
 /**
  * Created by Łukasz S. on 29.03.2017.
  */
 
 @SpringBootApplication
+@ComponentScan("springbootstarter")
 public class API {
     public static void main(String[] args) {
 
