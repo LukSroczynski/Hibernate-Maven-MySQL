@@ -21,7 +21,6 @@ public class CreateStudent {
         Session session = factory.getCurrentSession();
 
         try {
-
             // Use the session object to save Java Objects
 
             // 1. Create a student object
