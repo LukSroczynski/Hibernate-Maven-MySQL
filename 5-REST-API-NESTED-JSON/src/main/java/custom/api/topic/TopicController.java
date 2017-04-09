@@ -1,4 +1,4 @@
-package custom.api.person;
+package custom.api.topic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,14 +24,14 @@ public class TopicController {
         return repository.getTopicsById(id);
     }
 
-    @RequestMapping(value = "/topic", method = RequestMethod.POST, params = "create_new")
+    @RequestMapping(value = "/topic", method = RequestMethod.POST, params = "new")
     public void addTopic(@RequestBody Topic e) {
         repository.addTopic(e);
     }
 
-    @RequestMapping(value = "/topic", method = RequestMethod.PUT, params = "id")
-    public void updateTopicById(@RequestBody Topic topic, @RequestParam("id") long id) {
-        repository.updateTopicById(id, topic);
+    @RequestMapping(value = "/topic", method = RequestMethod.PUT, params = "edit")
+    public void updateTopicById(@RequestBody Topic topic) {
+        repository.updateTopicById(topic);
     }
 
     @RequestMapping(value = "/topic", method = RequestMethod.DELETE, params = "id")

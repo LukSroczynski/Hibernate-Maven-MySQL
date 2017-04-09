@@ -1,8 +1,7 @@
-package custom.api.person;
+package custom.api.topic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +30,7 @@ public class TopicService {
         repository.save(topic);
     }
 
-    public void updateTopicById(long id, Topic topic) {
+    public void updateTopicById(Topic topic) {
         repository.save(topic);
     }
 

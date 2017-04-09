@@ -1,9 +1,8 @@
-package custom.api.person;
+package custom.api.topic;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;

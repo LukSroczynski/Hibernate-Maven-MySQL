@@ -1,4 +1,4 @@
-package custom.api.person;
+package custom.api.topic;
 
 
 import org.springframework.data.repository.CrudRepository;
