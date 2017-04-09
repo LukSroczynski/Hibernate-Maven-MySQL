@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="react-and-spring-data-rest-hypermedia" />
+        <module name="Rest-API-NESTED-JSON" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="react-and-spring-data-rest-hypermedia" target="1.8" />
+      <module name="Rest-API-NESTED-JSON" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

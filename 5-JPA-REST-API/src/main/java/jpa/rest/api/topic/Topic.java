@@ -1,10 +1,16 @@
 package jpa.rest.api.topic;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  * Created by Lukasz S. on 31.03.2017.
  */
+
+@Entity
 public class Topic {
 
+    @Id
     private String id;
 
     private String name;

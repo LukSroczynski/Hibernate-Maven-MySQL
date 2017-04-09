@@ -1,14 +1,12 @@
-package jpa.rest.api.main;
+package jpa.rest.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("jpa")
-public class Application {
+public class API {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(API.class, args);
 	}
 }
