@@ -26,3 +26,10 @@
     </persistence-unit>
 </persistence>
 ```
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/HibernateTest
+spring.datasource.username=postgres
+spring.datasource.password=zaq12wsx
+spring.jpa.generate-ddl=true
+server.port=8080
+```
