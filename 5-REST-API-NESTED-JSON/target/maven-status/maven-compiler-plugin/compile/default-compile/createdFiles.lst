@@ -1,6 +1,0 @@
-eco\driving\api\model\EcoEvents.class
-eco\driving\api\repository\EcoEventsRepository.class
-eco\driving\api\controller\EcoEventsController.class
-eco\driving\api\redirecting\HomeController.class
-eco\driving\api\ReactAndSpringDataRestApplication.class
-eco\driving\api\configuration\WebConfig.class
