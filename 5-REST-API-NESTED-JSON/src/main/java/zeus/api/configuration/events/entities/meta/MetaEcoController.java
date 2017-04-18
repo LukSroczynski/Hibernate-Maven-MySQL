@@ -27,9 +27,9 @@ public class MetaEcoController {
 //    }
 
 //    @RequestMapping(value = "/topic/{topicId}/courses/{courseId}", method = RequestMethod.PUT)
-//    public void updateCourseById(@RequestBody Configuration configuration, @PathVariable long topicId) {
+//    public void updateConfiguration(@RequestBody Configuration configuration, @PathVariable long topicId) {
 //        configuration.setSpeed(new Brake( topicId, ""));
-//        repositoryCourse.updateCourseById(configuration);
+//        repositoryCourse.updateConfiguration(configuration);
 //    }
 //
 //    @RequestMapping(value = "/topic/{topicId}/courses/{courseId}", method = RequestMethod.DELETE)

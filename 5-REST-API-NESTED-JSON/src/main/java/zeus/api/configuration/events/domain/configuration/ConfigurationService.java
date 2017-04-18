@@ -31,7 +31,7 @@ public class ConfigurationService {
         repository.save(configuration);
     }
 
-    public void updateCourseById(Configuration configuration) {
+    public void updateConfiguration(Configuration configuration) {
         repository.save(configuration);
     }
 

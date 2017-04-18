@@ -15,7 +15,6 @@ public class ConfigurationController {
     @Autowired
     ConfigurationService repositoryCourse;
 
-
     @Autowired
     EventServices eventServices;
 
@@ -37,11 +36,13 @@ public class ConfigurationController {
         repositoryCourse.addCourse(configuration);
     }
 
-//    @RequestMapping(value = "/topic/{topicId}/courses/{courseId}", method = RequestMethod.PUT)
-//    public void updateCourseById(@RequestBody Configuration configuration, @PathVariable long topicId) {
-//        configuration.setSpeed(new Brake( topicId, ""));
-//        repositoryCourse.updateCourseById(configuration);
-//    }
+    @RequestMapping(value = "/configs", method = RequestMethod.PUT)
+    public void updateCourseById(@RequestBody Configuration configuration) {
+        eventServices.addEvent(configuration.getSpeed());
+        eventServices.addEvent(configuration.getBrake());
+        eventServices.addEvent(configuration.getRpm());
+        repositoryCourse.updateConfiguration(configuration);
+    }
 //
 //    @RequestMapping(value = "/topic/{topicId}/courses/{courseId}", method = RequestMethod.DELETE)
 //    public void deleteCourseById(@PathVariable long courseId){

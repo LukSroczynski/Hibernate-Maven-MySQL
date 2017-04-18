@@ -18,11 +18,11 @@ public class DateTime {
     @Id
     private long id;
 
-    private Date date;
+    private java.sql.Date date;
 
-    private Time time;
+    private java.sql.Time time;
 
-    private Timestamp timestamp;
+    private java.sql.Timestamp timestamp;
 
     // IN MYSQL DEFAULTS ARE TIMESTAMP
 
@@ -59,7 +59,7 @@ public class DateTime {
     }
 
     public void setUtilDate(java.util.Date utilDate) {
-        this.utilDate = utilDate;
+        this.utilDate = new java.util.Date();
     }
 
     public Calendar getCalendar() {

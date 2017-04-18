@@ -11,48 +11,16 @@ import javax.persistence.*;
  */
 
 @Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+//@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public abstract class EcoEvents {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.TABLE)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id ;
-    String ValRange;
-    String ValStep;
-    String AuxValName;
-    String AuxValMiano;
-    String AuxValRange;
-    String AuxValStep;
-    String TimeRange;
-    String AuxActivate;
-    String Activation;
-    String TrigBVal;
-    String TrigBActivate;
-    String TrigBValDelay;
-    String TrigBDelayTime;
-    String TrigBDelayActivate;
-    String TrigBValOcur;
-    String TrigBOcurNumb;
-    String TrigBOcurActivate;
-    String BSignificant;
-    String TrigAVal;
-    String TrigAActivate;
-    String TrigAValDelay;
-    String TrigADelayTime;
-    String TrigADelayActivate;
-    String TrigAValOcur;
-    String TrigAOcurNumb;
-    String TrigAOcurActivate;
-    String ASignificant;
-    String TrigEValMin;
-    String TrigEValMax;
-    String TrigEDelayTime;
-    String TrigEActivate;
-    String ESignificant;
-    String TrigAuxVal;
-    String ConnectedFactors;
-
+    String boom;
+    String crash;
+    String other;
 }

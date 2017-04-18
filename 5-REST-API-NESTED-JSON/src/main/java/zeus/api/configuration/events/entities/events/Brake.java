@@ -10,4 +10,5 @@ import javax.persistence.Entity;
  */
 @Entity
 public class Brake extends EcoEvents {
+
 }
