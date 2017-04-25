@@ -15,7 +15,7 @@ public class TopicController {
 
     /**
      * Create instance of Service which is singleton.
-     *  @Autowired - injects and creates instance of topicService
+     * @Autowired - injects and creates instance of topicService
      */
 
     @Autowired
@@ -27,7 +27,7 @@ public class TopicController {
     }
 
     /**
-     *  PathVariable as default RequestMapping seeks for given name {id} inside parameter of method with annotation PathVariable
+     *   PathVariable as default RequestMapping seeks for given name {id} inside parameter of method with annotation PathVariable
      */
     @RequestMapping(value = "/topics/{id}", method = RequestMethod.GET)
     public Topic getTopic(@PathVariable String id) {
