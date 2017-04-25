@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7132f04-34b4-403e-9d38-189d857edf2a" name="Default" comment="" />
+    <list default="true" id="f7132f04-34b4-403e-9d38-189d857edf2a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java" afterPath="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -105,8 +107,8 @@
       <file leaf-file-name="MetaDataDefEcoEvents.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -192,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entity/MetaEco.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaEco.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDefEcoEvents.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/meta/data/MetaEcoRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/meta/data/ConfigurationRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/DefConfiguration.java" />
@@ -207,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/configuration/ConfigurationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/configuration/ConfigurationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java" />
         <option value="$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/EcoEventsTemplate.java" />
       </list>
     </option>
@@ -1077,12 +1079,12 @@
       <workItem from="1493024300963" duration="1713000" />
       <workItem from="1493027978639" duration="17000" />
       <workItem from="1493028017560" duration="14226000" />
-      <workItem from="1493101059376" duration="8818000" />
+      <workItem from="1493101059376" duration="8940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165891000" />
+    <option name="totallyTimeSpent" value="166013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
@@ -1274,14 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/zeus/api/domain/meta/data/ConfigurationValuesRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1338,6 +1332,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/zeus/api/domain/entities/MetaDataDefEcoEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
           <folding />
         </state>
       </provider>

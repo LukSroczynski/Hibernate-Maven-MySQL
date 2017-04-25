@@ -22,14 +22,4 @@ public class MetaDataDefEcoEvents {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private long id;
     private String FactorName;
-    private String ValMiano;
-    private String ValRange;
-    private String ValStep;
-    private String AuxValName;
-    private String AuxValMiano;
-    private String AuxValRange;
-    private String AuxValStep;
-    private String TimeRange;
-    private String AuxActivate;
-    private String Description;
 }
