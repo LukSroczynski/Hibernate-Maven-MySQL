@@ -14,8 +14,8 @@ import zeus.api.domain.entities.Configuration;
 @Component
 public class MetaDataLoader implements ApplicationRunner {
 
-    @Autowired
-    ConfigurationService configurationService;
+//    @Autowired
+//    ConfigurationService configurationService;
 
     public void run(ApplicationArguments args) {
 

@@ -26,7 +26,7 @@ public class Configuration {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     @XmlAttribute(required = true)
-    private long id ;
+    private long id;
 
     @XmlAttribute (required = true)
     private String name;
@@ -45,6 +45,10 @@ public class Configuration {
         last_updated = new Date();
     }
 
+    public Configuration(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }
 
 

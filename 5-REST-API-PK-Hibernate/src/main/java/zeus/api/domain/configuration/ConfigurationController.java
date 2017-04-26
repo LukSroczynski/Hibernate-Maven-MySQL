@@ -20,9 +20,21 @@ public class ConfigurationController {
     @Autowired
     ConfigurationService configurationService;
 
-    @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "all")
+    @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "all_configurations")
     public List<Configuration> getAllConfigurations(){
         return configurationService.getAllConfig();
+    }
+
+    @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "id_config")
+    public Map<String, ConfigurationValues> getAllConfigurationWithValues(
+            @RequestParam(name = "id_config") long id_config){
+        return configurationService.getAllConfigurationsById(id_config);
+    }
+
+    @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "id_config_last_updated")
+    public Configuration getLastUpdatedConfig(
+            @RequestParam(name = "id_config_last_updated") long id_config_last_updated){
+        return configurationService.getLastUpdatedConfig(id_config_last_updated);
     }
 
     @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "meta")
@@ -31,33 +43,42 @@ public class ConfigurationController {
     }
 
     @RequestMapping(value = "/eco_config", method = RequestMethod.GET, params = "template")
-    public List<EcoEventsTemplate> getTemplate(){
+    public Map<String, EcoEventsTemplate> getTemplate(){
         return configurationService.getTemplate();
     }
 
-    @RequestMapping(value = "/eco_config", method = RequestMethod.PUT, params = "id_config")
-    public void testId(
+    @RequestMapping(value = "/eco_config", method = RequestMethod.PUT, params = {"id_config"})
+    public void editConfigurationById(
             @RequestParam(name = "id_config") long id_config,
-            @RequestBody ConfigurationValues configurationValues) {
+            @RequestBody Map<String, ConfigurationValues> configurationValues) {
         configurationService.editConfiguration(id_config, configurationValues);
     }
 
     @RequestMapping(value = "/eco_config", method = RequestMethod.PUT)
-    public void getByConfigurationValuesId(
+    public void editConfigurationByConfigurationIdAndMetaId(
             @RequestParam(name = "id_config") long id_config,
-            @RequestParam(name = "id_meta") long id_meta,
+            @RequestParam(name = "id_event") long id_event,
             @RequestBody ConfigurationValues configurationValues) {
-        configurationService.editConfiguration(id_config, id_meta, configurationValues);
+        configurationService.editConfiguration(id_config, id_event, configurationValues);
     }
 
     @RequestMapping(value = "/eco_config", method = RequestMethod.POST, params = "create_configuration")
     public Map<String, Long> createEmptyConfiguration(@RequestBody Configuration configuration) {
 
-        // Map makes JSON with added configuration ID
-        Map <String, Long> list = new HashMap<>();
-        list.put("id", configurationService.createEmptyConfiguration(configuration));
+        if(configuration.getName().equals("")) {
+            Map <String, Long> list = new HashMap<>();
+            list.put("Configuration name is required", 0L);
+            return list;
+        } else {
+            // Map makes JSON with added configuration ID
+            Map <String, Long> list = new HashMap<>();
+            list.put("id", configurationService.createEmptyConfiguration(configuration));
+            return list;
+        }
+    }
 
-        return list;
+    private void updateLastUpdated(long id_config) {
+        configurationService.updateLastUpdated(id_config);
     }
 
 }

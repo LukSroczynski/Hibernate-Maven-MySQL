@@ -1,8 +1,6 @@
 package zeus.api.domain.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -22,5 +20,5 @@ public class EcoEventsTemplate {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String Activation;
-    private String TrigBVal;
+
 }

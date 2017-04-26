@@ -13,7 +13,9 @@ import zeus.api.domain.meta.data.EcoEventsTemplateRepository;
 import zeus.api.domain.meta.data.MetaDataDefEcoEventsRepository;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Lukasz S. on 07.04.2017.
@@ -41,6 +43,31 @@ public class ConfigurationService {
         return list;
     }
 
+    public Map<String, ConfigurationValues> getAllConfigurationsById(long config_id) {
+
+        ArrayList<MetaDataDefEcoEvents> metaData = new ArrayList<>();
+        ArrayList<ConfigurationValues> configValues = new ArrayList<>();
+        Map<String, ConfigurationValues> configurationById = new HashMap<>();
+        metaData.addAll(getMetaData());
+
+        List<ConfigurationValues> list = new ArrayList<>();
+
+        for(MetaDataDefEcoEvents e : metaData) {
+            ConfigurationValues configurationValues = new ConfigurationValues();
+            configurationById.put(String.valueOf(e.getId()), configurationValuesRepository.findOne(
+                    new ConfigurationValuesId(config_id, e.getId())));
+        }
+
+        //put configvalues
+        // zrobic z osobnego geta
+
+        return configurationById;
+    }
+
+    public Configuration getLastUpdatedConfig(long config_id) {
+        return configurationRepository.findOne(config_id);
+    }
+
     public List<MetaDataDefEcoEvents> getMetaData(){
         List<MetaDataDefEcoEvents> list = new ArrayList<>();
         metaDataDefEcoEventsRepository.findAll()
@@ -48,31 +75,42 @@ public class ConfigurationService {
         return list;
     }
 
-    public List<EcoEventsTemplate> getTemplate(){
+    public Map<String, EcoEventsTemplate> getTemplate(){
         List<EcoEventsTemplate> list = new ArrayList<>();
+        Map<String, EcoEventsTemplate> map = new HashMap();
         ecoEventsTemplateRepository.findAll()
                 .forEach(list::add);
-        return list;
+
+        for(EcoEventsTemplate e : list) {
+            map.put(String.valueOf(e.getId()),
+                    new EcoEventsTemplate(
+                            e.getId(),
+                            e.getActivation()));
+        }
+
+        return map;
     }
 
-    public void editConfiguration(long id_config, ConfigurationValues configurationValues) {
+    public void editConfiguration(long id_config, Map<String, ConfigurationValues> configurationValues) {
 
-//        ConfigurationValues putValues = new ConfigurationValues(
-//                new ConfigurationValuesId(id_config, tutaj FOR),
-//                configurationValues.getActivation(),
-//                configurationValues.getTrigBVal()
-//        );
+        updateLastUpdated(id_config);
+        for (Map.Entry<String, ConfigurationValues> pair : configurationValues.entrySet()) {
 
-//        configurationValuesRepository.save(putValues);
+            ConfigurationValues putValues = new ConfigurationValues(
+                    new ConfigurationValuesId(id_config, Integer.parseInt(pair.getKey())),
+                    pair.getValue().getActivation()
 
+            );
+            configurationValuesRepository.save(putValues);
+        }
     }
 
     public void editConfiguration(long id_config, long id_meta, ConfigurationValues configurationValues) {
 
+        updateLastUpdated(id_config);
         ConfigurationValues putValues = new ConfigurationValues(
                 new ConfigurationValuesId(id_config, id_meta),
-                configurationValues.getActivation(),
-                configurationValues.getTrigBVal()
+                configurationValues.getActivation()
         );
 
         configurationValuesRepository.save(putValues);
@@ -91,7 +129,7 @@ public class ConfigurationService {
         ConfigurationValues configurationValues = new ConfigurationValues();
 
         for(MetaDataDefEcoEvents e : metaData) {
-            configurationValues.setId(new ConfigurationValuesId(configuration.getId(), e.getId()));
+            configurationValues.setCompositeId(new ConfigurationValuesId(configuration.getId(), e.getId()));
             configurationValuesRepository.save(configurationValues);
         }
 
@@ -106,5 +144,13 @@ public class ConfigurationService {
     private void createEmptyConfigurationWithName(Configuration configuration) {
         configuration.setName(configuration.getName());
         configurationRepository.save(configuration);
+    }
+
+    public void updateLastUpdated(long id_config) {
+        List<Configuration> list = new ArrayList<>();
+        list.add(configurationRepository.findOne(id_config));
+        for(Configuration e : list) {
+            configurationRepository.save(new Configuration(id_config, e.getName()));
+        }
     }
 }
