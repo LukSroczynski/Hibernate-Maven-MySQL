@@ -1,7 +1,7 @@
 # Hibernate
 
 <b> Objectives: </b>
-- Learn maven
+- ~~ Learn maven ~~
 - Learn basics of Hibernate
 - Learn basics of Spring
 - Try out MySQL
